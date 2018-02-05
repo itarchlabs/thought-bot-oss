@@ -6,8 +6,7 @@
 
 |  Branch |                                                     Build                                                     |
 |:-------:|:-------------------------------------------------------------------------------------------------------------:|
-|  master | [![Build Status](https://travis-ci.com/itarchlabs/thought-bot.svg?token=cXbMVcQUupX5YqgaWxD4&branch=master)](https://travis-ci.com/itarchlabs/thought-bot-oss) |
-|  develop | [![Build Status](https://travis-ci.com/itarchlabs/thought-bot.svg?token=cXbMVcQUupX5YqgaWxD4&branch=develop)](https://travis-ci.com/itarchlabs/thought-bot-oss) |
+|  master | [![Build Status](https://travis-ci.org/itarchlabs/thought-bot-oss.svg?branch=master)](https://travis-ci.org/itarchlabs/thought-bot-oss) |
 
 ## Application Instructions
 
