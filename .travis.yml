@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- node
+env:
+- NODE_ENV=int LOG_LEVEL=debug
+services:
+- docker
+script:
+- cd app && npm install && npm test && cd ..
+- docker build -t thought-bot-oss .
+after_success:
+- if [ "$TRAVIS_BRANCH" == "master" ]; then docker tag thought-bot-oss $CONTAINER_REGISTRY/thought-bot-oss:production;
+  docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD" $CONTAINER_REGISTRY; docker
+  push $CONTAINER_REGISTRY/thought-bot-oss:production; fi

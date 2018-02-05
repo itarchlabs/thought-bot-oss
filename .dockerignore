@@ -1,0 +1,10 @@
+**/node_modules
+**/test
+**/npm-debug.log
+**/.env
+**/.env.template
+**/.git
+**/.gitignore
+**/.DS_Store
+**/.vscode
+**/.travis.yml

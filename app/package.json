@@ -1,0 +1,32 @@
+{
+  "name": "thought-bot-oss",
+  "version": "0.5.9",
+  "description": "Bot to help you with your thoughts.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "./node_modules/.bin/standard && ./node_modules/.bin/mocha"
+  },
+  "author": "Iterative Architecture",
+  "license": "MIT",
+  "repository": "itarchlabs/thought-bot-oss",
+  "dependencies": {
+    "botbuilder": "^3.13.1",
+    "dotenv": "^4.0.0",
+    "envalid": "^4.1.2",
+    "pino": "^4.10.2",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "restify": "^5.2.1",
+    "wikijs": "^4.5.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^4.3.1",
+    "mocha": "^3.5.0",
+    "sinon": "^4.1.3",
+    "standard": "^10.0.3"
+  }
+}
